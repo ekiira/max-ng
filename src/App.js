@@ -1,12 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
+import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom'
 import './App.css';
+import Login from './Login/Login'
+
 
 function App() {
   return (
-    <div className="App">
-     Max.ng
-    </div>
+    <Router>
+      <Switch>
+        <Route path='/' exact>
+        <Redirect to="/login" />
+        </Route>
+        <Route exact path="/login" component={Login}/>
+      </Switch>
+    </Router>
+   
   );
 }
 
