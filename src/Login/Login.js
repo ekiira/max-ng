@@ -2,12 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Form, Button } from 'react-bootstrap'
 import style from './Login.module.css';
 import Spaceship from '../images/undraw_To_the_stars_qhyy.svg';
-<<<<<<< HEAD
-import Flag from '../images/undraw_Astronaut_xko2.svg';
-import { useHistory} from 'react-router-dom';
-=======
 import Flag from '../images/undraw_Astronaut_xko2.svg'
->>>>>>> 027872b381953e42a4fd63b378f960f481600c64
+import { useHistory } from 'react-router-dom'
 
 const Login = () => {
   const history = useHistory();
