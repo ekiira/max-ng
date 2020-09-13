@@ -5,7 +5,6 @@
 
 .left {
   background: rgba(255, 246, 211, 0.5);
-  /* width: 100%; */
   min-height: 100vh;
   position: relative;
 
@@ -28,19 +27,13 @@
 
 
 .mid, .right {
-  /* width: 100%; */
   height: 100vh;
   background: rgba(255, 255, 255, 1);
 }
  
 .mid_intro {
-<<<<<<< HEAD
-  color: #2B2D42 !important;
-  font-size: 24px;
-=======
   color: #2B2D42;
   font-size: 1.5rem;
->>>>>>> 027872b381953e42a4fd63b378f960f481600c64
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
 }
@@ -49,15 +42,9 @@
   height: 100%;
 }
 
-<<<<<<< HEAD
 .form {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
 .email, .password, .button {
   font-weight: 600;
-=======
-.right {
-
->>>>>>> 027872b381953e42a4fd63b378f960f481600c64
-}
