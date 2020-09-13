@@ -32,7 +32,7 @@
 }
  
 .mid_intro {
-  color: #2B2D42;
+  color: #2B2D42 !important;
   font-size: 24px;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
@@ -40,4 +40,12 @@
 
 .mid_banner {
   height: 100%;
+}
+
+.form {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.email, .password, .button {
+  font-weight: 600;
 }
